@@ -1,3 +1,5 @@
+require 'pry'
+
 def multiply(num1, num2)
 	i = 1
 	#counter for how many times we are adding num1 to itself (eventually will be num2 many times)
@@ -12,3 +14,5 @@ def multiply(num1, num2)
 	end
 	return result
 end
+
+binding.pry
